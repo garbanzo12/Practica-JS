@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abrir Consola</title>
+</head>
+<body>
+
+    <button id="openConsole">Abrir Consola</button>
+
+    <script>
+        document.getElementById("openConsole").addEventListener("click", () => {
+            let newWindow = window.open("about:blank"); // Abre una nueva pestaña en blanco
+            if (newWindow) {
+                newWindow.document.write("<h1>Abre la consola (F12) para ver el mensaje</h1>");
+                newWindow.console.log("¡Hola! Este mensaje aparece en la consola de la nueva pestaña.");
+            } else {
+                alert("El navegador bloqueó la ventana emergente. Activa los pop-ups.");
+            }
+        });
+    </script>
+
+</body>
+</html>
