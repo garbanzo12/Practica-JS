@@ -2,7 +2,7 @@
 
 ✅ Hecho por: Santiago Sanchez Hernandez
 📅 Fecha: 22/02/25
-🐙 Github: garbanzo12
+🐈 Github: garbanzo12
 
 
 📌 Tema: Objetos en JavaScript (object, métodos de objeto)
