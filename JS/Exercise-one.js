@@ -13,8 +13,8 @@ Crea un array con al menos 3 coches y usa forEach() para imprimir la descripció
 
 
 */
-
-
+//⬇️ Limpio la consola
+console.clear();
 //function describir creada ✅
 function describir(marca,modelo,year){
     this.marca = marca

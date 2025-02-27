@@ -12,9 +12,8 @@ Crea un array de productos con nombre, precio y categoria.
 Usa map() para obtener un array con solo los nombres de los productos.
 Usa filter() para obtener solo los productos de una categoría específica.
 Usa reduce() para calcular el precio total de los productos.
-
-
 */
+//⬇️ Limpio la consola
 console.clear();
  const Manzana = {
     nombre: 'Manzana',
